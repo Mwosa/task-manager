@@ -1,12 +1,86 @@
-# React + Vite
+# 🗂️ Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern **Task Manager** built with **React (Vite)** and **Tailwind CSS**. The app demonstrates reusable components, state management using React Hooks, API integration and theme switching (light/dark mode).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Add, complete and delete tasks
+- 🔄 Filter tasks: All, Active, Completed
+- 💾 Tasks persist using `localStorage`
+- ⚡ Reusable UI components (Button, Card, Navbar, etc.)
+- 🎨 Theme toggle (light/dark mode)
+- 🌐 API integration (JSONPlaceholder)
+- 🔍 Search and paginate API data
+- 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (Vite), JSX, Tailwind CSS
+- **State Management**: React Hooks (`useState`, `useEffect`, `useContext`)
+- **Persistence**: `localStorage` via custom hook (`useLocalStorage`)
+- **Routing**: React Router
+- **API**: JSONPlaceholder
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 14.x
+- pnpm, npm, or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/task-manager-app.git
+cd task-manager-app
+
+# Install dependencies
+npm install
+# or
+pnpm install
+
+### Development
+
+npm run dev
+# or
+pnpm dev
+
+## 📸 Screenshots
+
+![Light Mode](./public/light-mode.png)
+![Dark Mode](./public/dark-mode.png)
+![User Directory](./public/user-directory.png)
+
+## 🧱 Project Structure
+
+src/
+├── components/
+│   ├── ui/              # Reusable UI elements
+│   │   ├── Button.jsx
+│   │   └── Card.jsx
+│   ├── layout/          # Shared layout elements
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   ├── features/        # Core feature components
+│   │   ├── TaskManager.jsx
+│   │   └── UserDirectory.jsx
+│   └── index.js         # Central export for components
+├── context/
+│   └── ThemeContext.jsx # Context API for theme management
+├── hooks/
+│   └── useLocalStorage.js # Custom hook for localStorage
+├── App.jsx              # Root component
+└── main.jsx             # React entry point
+
+## 🙋‍♂️ Author
+
+[Nelson Mwosa](https://github.com/Mwosa)
+
+```
