@@ -45,14 +45,18 @@ cd task-manager-app
 npm install
 # or
 pnpm install
-```
+
 ### Development
 ```
 npm run dev
 # or
 pnpm dev
-```
----
+
+## 📸 Screenshots
+
+![Light Mode](./public/light-mode.png)
+![Dark Mode](./public/dark-mode.png)
+![User Directory](./public/user-directory.png)
 
 ## 🧱 Project Structure
 ```
