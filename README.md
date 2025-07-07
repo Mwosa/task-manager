@@ -56,7 +56,7 @@ pnpm dev
 ```
 
 ## 🧱 Project Structure
-
+```
 src/
 ├── components/
 │   ├── ui/              # Reusable UI elements
@@ -75,6 +75,13 @@ src/
 │   └── useLocalStorage.js # Custom hook for localStorage
 ├── App.jsx              # Root component
 └── main.jsx             # React entry point
+```
+
+## 📸 Screenshots
+
+![Light Mode](./public/light-mode.png)
+![Dark Mode](./public/dark-mode.png)
+![User Directory](./public/user-directory.png)
 
 ## 🙋‍♂️ Author
 
