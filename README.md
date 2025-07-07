@@ -46,17 +46,14 @@ npm install
 # or
 pnpm install
 
-### Development
+```
 
+### Development
+```
 npm run dev
 # or
 pnpm dev
-
-## 📸 Screenshots
-
-![Light Mode](./public/light-mode.png)
-![Dark Mode](./public/dark-mode.png)
-![User Directory](./public/user-directory.png)
+```
 
 ## 🧱 Project Structure
 
@@ -83,4 +80,4 @@ src/
 
 [Nelson Mwosa](https://github.com/Mwosa)
 
-```
+
