@@ -45,16 +45,15 @@ cd task-manager-app
 npm install
 # or
 pnpm install
-
+```
 ### Development
 ```
-
 npm run dev
 
 # or
 
 pnpm dev
-
+```
 ## 🧱 Project Structure
 
 ```
