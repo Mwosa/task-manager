@@ -77,12 +77,6 @@ src/
 └── main.jsx             # React entry point
 ```
 
-## 📸 Screenshots
-
-![Light Mode](./public/light-mode.png)
-![Dark Mode](./public/dark-mode.png)
-![User Directory](./public/user-directory.png)
-
 ## 🙋‍♂️ Author
 
 [Nelson Mwosa](https://github.com/Mwosa)
